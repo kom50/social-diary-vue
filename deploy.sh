@@ -15,7 +15,9 @@ cd dist
 git init
 git add -A
 git commit -m 'deploy'
-git push -f git@github.com:kom50/social-diary-vue.git main:gh-pages
+# git push -f https://github.com/kom50/social-diary-vue.git main:gh-pages
+# git push  git@github.com:kom50/social-diary-vue.git main:gh-pages
+git push  git@github.com:kom50/social-diary-vue.git main:gh-pages
 
 
 # if you are deploying to https://<USERNAME>.github.io

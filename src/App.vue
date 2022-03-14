@@ -5,10 +5,30 @@
     </nav> -->
     <div class="relative h-screen bg-white overflow-auto">
         <router-view />
+        <!-- <counter /> -->
     </div>
 </template>
 
 <script setup>
+// const Counter = {
+//     // state
+//     data() {
+//         return {
+//             count: 0,
+//         };
+//     },
+//     // view
+//     template: `
+//     <h4>{{ count }}</h4>
+//   `,
+//     // actions
+//     methods: {
+//         increment() {
+//             this.count++;
+//         },
+//     },
+// };
+
 // -------------  import Start -----------------
 import { onBeforeMount, watch } from "vue";
 import { useStore } from "@/store/store";
